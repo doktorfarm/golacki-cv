@@ -1,0 +1,14 @@
+node_modules
+dist
+.ssr
+.claude
+.DS_Store
+# podglądy robocze
+podglad-*.png
+# prywatne: zdjęcia źródłowe i CV (zawiera telefon i prywatny e-mail)
+media/portrait*
+media/boardwalk.jpg
+media/camera.jpg
+media/mountains.jpg
+media/walk-bw.jpg
+public/assets/Krzysztof-Golacki-CV.pdf

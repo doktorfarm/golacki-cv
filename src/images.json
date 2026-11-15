@@ -1,0 +1,56 @@
+{
+  "gencode-app": {
+    "width": 2880,
+    "height": 1800,
+    "widths": [
+      700,
+      1400
+    ],
+    "fallback": "jpg"
+  },
+  "gencode-start": {
+    "width": 2880,
+    "height": 1800,
+    "widths": [
+      700,
+      1400
+    ],
+    "fallback": "jpg"
+  },
+  "gencode-phone": {
+    "width": 780,
+    "height": 1688,
+    "widths": [
+      300,
+      600
+    ],
+    "fallback": "jpg"
+  },
+  "startownia-panel": {
+    "width": 2720,
+    "height": 1700,
+    "widths": [
+      700,
+      1400
+    ],
+    "fallback": "jpg"
+  },
+  "startownia-start": {
+    "width": 2720,
+    "height": 1700,
+    "widths": [
+      700,
+      1400
+    ],
+    "fallback": "jpg"
+  },
+  "startownia-plan": {
+    "width": 780,
+    "height": 1600,
+    "widths": [
+      300,
+      600
+    ],
+    "fallback": "jpg"
+  }
+}
