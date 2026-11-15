@@ -10,6 +10,7 @@ const jobs = [
   { name: 'gencode-app', src: 'media/gencode-app.png', widths: [700, 1400] },
   { name: 'gencode-start', src: 'media/gencode-start.png', widths: [700, 1400] },
   { name: 'gencode-phone', src: 'media/gencode-phone.png', widths: [300, 600] },
+  { name: 'infectio-screens', src: 'media/infectio-screens.png', widths: [700, 1400] },
   { name: 'startownia-panel', src: 'media/startownia-panel.png', widths: [700, 1400] },
   { name: 'startownia-start', src: 'media/startownia-start.png', widths: [700, 1400] },
   { name: 'startownia-plan', src: 'media/startownia-plan.png', widths: [300, 600] },

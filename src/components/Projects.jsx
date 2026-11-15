@@ -31,8 +31,8 @@ function Visual({ p }) {
   }
   return (
     <div>
-      <Tilt className="shot relative p-3 pb-8 md:p-4 md:pb-10">
-        <div className="slides w-[88%]">
+      <Tilt className={`shot relative p-3 md:p-4 ${p.shots.phone ? 'pb-8 md:pb-10' : ''}`}>
+        <div className={`slides ${p.shots.phone ? 'w-[88%]' : 'w-full'}`}>
           {p.shots.desktop.map(([name, alt], k) => (
             <Picture
               key={name}
