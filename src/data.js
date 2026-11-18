@@ -33,7 +33,7 @@ export const hero = {
   ],
   seeking: {
     label: 'Dokąd zmierzam',
-    text: 'Chcę zostać kardiochirurgiem dziecięcym. Pierwsze doświadczenie zebrałem na oddziale kardiochirurgii dziecięcej i szukam zespołu klinicznego, w którym będę mógł uczyć się dalej: na oddziale, przy stole operacyjnym i w badaniach. Do zespołu wnoszę znajomość pacjenta, leku i danych z badań, dokładną dokumentację oraz narzędzia, które zdejmują z niego ręczną pracę.',
+    text: 'Chcę zostać kardiochirurgiem dziecięcym. Pierwsze doświadczenie zebrałem na oddziale kardiochirurgii dziecięcej, a dziś łączę studia medyczne z pracą w aptece, badaniami klinicznymi i budowaniem narzędzi. Do współpracy wnoszę znajomość pacjenta, leku i danych z badań, dokładną dokumentację oraz narzędzia, które zdejmują z zespołu ręczną pracę.',
   },
 }
 
@@ -195,8 +195,8 @@ export const faq = [
     a: 'Student V roku kierunku lekarskiego na Gdańskim Uniwersytecie Medycznym, magister farmacji (GUMed) i magister biologii (Uniwersytet Gdański). Jego cel to kardiochirurgia dziecięca. Pracuje jako farmaceuta, był koordynatorem badań klinicznych w LabCorp i medical writerem w Centrum Wsparcia Badań Klinicznych GUMed. Tworzy też własne aplikacje dla medycyny.',
   },
   {
-    q: 'Czego szukam i co mogę wnieść do zespołu?',
-    a: 'Szukam zespołu klinicznego, najchętniej z kardiochirurgii dziecięcej, w którym mogę się uczyć i pracować. Wnoszę doświadczenie z oddziału kardiochirurgii dziecięcej, dokumentację badań klinicznych (protokoły, streszczenia, materiały dla komisji bioetycznych), medical writing oraz narzędzia cyfrowe, które zdejmują z zespołu ręczną pracę.',
+    q: 'Dokąd zmierzam i co mogę wnieść do współpracy?',
+    a: 'Chcę zostać kardiochirurgiem dziecięcym. Wnoszę doświadczenie z oddziału kardiochirurgii dziecięcej, dokumentację badań klinicznych (protokoły, streszczenia, materiały dla komisji bioetycznych), medical writing oraz narzędzia cyfrowe, które zdejmują z zespołu ręczną pracę.',
   },
   {
     q: 'Jakie mam doświadczenie w badaniach klinicznych?',
@@ -216,6 +216,6 @@ export const faq = [
 export const seo = {
   title: 'Krzysztof Gołacki | Student medycyny, przyszły kardiochirurg',
   description:
-    'Student V roku medycyny z Gdańska, przyszły kardiochirurg, magister farmacji i biologii. Szukam zespołu klinicznego. Piszę dokumentację badań (GCP) i buduję narzędzia dla lekarzy.',
+    'Student V roku medycyny z Gdańska, przyszły kardiochirurg, magister farmacji i biologii. Piszę dokumentację badań (GCP) i buduję narzędzia dla lekarzy.',
   sameAs: [], // np. LinkedIn, ORCID, GitHub — pełne adresy URL
 }
