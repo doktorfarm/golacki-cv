@@ -33,7 +33,7 @@ export const hero = {
   ],
   seeking: {
     label: 'Dokąd zmierzam',
-    text: 'Przede wszystkim chcę zostać kardiochirurgiem. Szukam opiekuna naukowego i zespołu klinicznego, w którym mogę się tego uczyć: na oddziale, przy stole operacyjnym i w badaniach.',
+    text: 'Przede wszystkim chcę zostać kardiochirurgiem. Szukam zespołu klinicznego, w którym mogę się tego uczyć: na oddziale, przy stole operacyjnym i w badaniach.',
   },
   value: {
     label: 'Co wnoszę do zespołu',
@@ -156,7 +156,7 @@ export const skills = [
 export const contact = {
   title: 'Porozmawiajmy',
   accent: 'o współpracy.', // konturem
-  text: 'Prowadzisz oddział, zespół kliniczny albo badanie i możesz przyjąć studenta pod opiekę? Napisz kilka zdań o zespole i o tym, czego potrzebujesz. Odpowiadam zwykle w ciągu jednego dnia.',
+  text: 'Prowadzisz oddział, zespół kliniczny albo badanie i chcesz porozmawiać o współpracy? Napisz kilka zdań o zespole i o tym, czego potrzebujesz. Odpowiadam zwykle w ciągu jednego dnia.',
 }
 
 // Dowody: publikacje i certyfikaty (z CV)
@@ -200,7 +200,7 @@ export const faq = [
   },
   {
     q: 'Czego szukam i co mogę wnieść do zespołu?',
-    a: 'Szukam opiekuna naukowego i zespołu klinicznego, najchętniej z kardiochirurgii, w którym mogę się uczyć i pracować. Wnoszę doświadczenie z oddziału kardiochirurgii dziecięcej, dokumentację badań klinicznych (protokoły, streszczenia, materiały dla komisji bioetycznych), medical writing oraz narzędzia cyfrowe, które zdejmują z zespołu ręczną pracę.',
+    a: 'Szukam zespołu klinicznego, najchętniej z kardiochirurgii, w którym mogę się uczyć i pracować. Wnoszę doświadczenie z oddziału kardiochirurgii dziecięcej, dokumentację badań klinicznych (protokoły, streszczenia, materiały dla komisji bioetycznych), medical writing oraz narzędzia cyfrowe, które zdejmują z zespołu ręczną pracę.',
   },
   {
     q: 'Jakie mam doświadczenie w badaniach klinicznych?',
@@ -220,6 +220,6 @@ export const faq = [
 export const seo = {
   title: 'Krzysztof Gołacki | Student medycyny, przyszły kardiochirurg',
   description:
-    'Student V roku medycyny z Gdańska, przyszły kardiochirurg, magister farmacji i biologii. Szukam opiekuna naukowego i zespołu klinicznego. Piszę dokumentację badań (GCP) i buduję narzędzia dla lekarzy.',
+    'Student V roku medycyny z Gdańska, przyszły kardiochirurg, magister farmacji i biologii. Szukam zespołu klinicznego. Piszę dokumentację badań (GCP) i buduję narzędzia dla lekarzy.',
   sameAs: [], // np. LinkedIn, ORCID, GitHub — pełne adresy URL
 }
