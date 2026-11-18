@@ -81,7 +81,7 @@ export default function About() {
           <Reveal delay={0.1} className="navy rounded-[24px] p-6 md:p-8">
             <h3 className="m-0 text-[22px] leading-tight">Prowadzisz zespół?</h3>
             <p className="mb-0 mt-3 max-w-[40ch] text-[16px] leading-[1.6] text-muted">
-              Szukam zespołu klinicznego i miejsca do nauki kardiochirurgii. Napisz, czym się zajmuje Twój zespół.
+              Szukam zespołu klinicznego i miejsca do nauki kardiochirurgii dziecięcej. Napisz, czym się zajmuje Twój zespół.
             </p>
             <a className="btn btn-fill mt-6" href={`mailto:${person.email}`}>
               <Roll>Napisz do mnie</Roll>

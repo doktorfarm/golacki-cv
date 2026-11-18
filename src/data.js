@@ -23,21 +23,17 @@ export const hero = {
   claim: 'Idę w stronę kardiochirurgii. Po drodze buduję narzędzia.',
   // Ten sam nagłówek podzielony na wersy (każdy wjeżdża osobno)
   lines: ['Idę w stronę', 'kardiochirurgii.', 'Po drodze buduję', 'narzędzia.'],
-  lead: 'Studiuję medycynę, żeby zostać kardiochirurgiem. Pierwsze doświadczenie zebrałem na oddziale kardiochirurgii dziecięcej. Równolegle buduję aplikacje dla lekarzy, badaczy i studentów.',
+  lead: 'Studiuję medycynę, żeby zostać kardiochirurgiem dziecięcym. Pierwsze doświadczenie zebrałem na oddziale kardiochirurgii dziecięcej. Równolegle buduję aplikacje dla lekarzy, badaczy i studentów.',
   // Krótkie fakty pod nagłówkiem
   facts: [
     ['V rok', 'kierunku lekarskiego, GUMed'],
     ['2 × mgr', 'farmacja i biologia'],
     ['3 badania', 'kliniczne w LabCorp: onkologia, pulmonologia'],
-    ['3 publikacje', 'naukowe, m.in. Pharmaceutics i Molecules'],
+    ['4 publikacje', 'naukowe, m.in. Pharmaceutics i Molecules'],
   ],
   seeking: {
-    label: 'Dokąd zmierzam',
-    text: 'Przede wszystkim chcę zostać kardiochirurgiem. Szukam zespołu klinicznego, w którym mogę się tego uczyć: na oddziale, przy stole operacyjnym i w badaniach.',
-  },
-  value: {
-    label: 'Co wnoszę do zespołu',
-    text: 'Znam pacjenta z oddziału, lek z apteki i dane z badań. Dokładnie dokumentuję, szybko się uczę, a gdy zespół traci czas na ręczną pracę, potrafię zbudować narzędzie, które ją zdejmuje.',
+    label: 'Dokąd zmierzam i co wnoszę',
+    text: 'Przede wszystkim chcę zostać kardiochirurgiem dziecięcym i szukam zespołu klinicznego, w którym mogę się tego uczyć: na oddziale, przy stole operacyjnym i w badaniach. Znam pacjenta z oddziału, lek z apteki i dane z badań. Dokładnie dokumentuję, szybko się uczę, a gdy zespół traci czas na ręczną pracę, potrafię zbudować narzędzie, które ją zdejmuje.',
   },
 }
 
@@ -126,7 +122,7 @@ export const projects = [
 ]
 
 export const about = {
-  text: 'Jestem studentem V roku medycyny oraz magistrem farmacji i biologii. Przede wszystkim chcę zostać kardiochirurgiem. Pracowałem przy łóżku pacjenta na kardiochirurgii dziecięcej, w CRO, jako medical writer i w aptece. Dlatego wiem, jak wygląda problem z każdej strony, zanim zacznę budować rozwiązanie.',
+  text: 'Jestem studentem V roku medycyny oraz magistrem farmacji i biologii. Przede wszystkim chcę zostać kardiochirurgiem dziecięcym. Pracowałem przy łóżku pacjenta na kardiochirurgii dziecięcej, w CRO, jako medical writer i w aptece. Dlatego wiem, jak wygląda problem z każdej strony, zanim zacznę budować rozwiązanie.',
 }
 
 // `to: null` = „dziś”
@@ -196,11 +192,11 @@ export const certificates = [
 export const faq = [
   {
     q: 'Kim jest Krzysztof Gołacki?',
-    a: 'Student V roku kierunku lekarskiego na Gdańskim Uniwersytecie Medycznym, magister farmacji (GUMed) i magister biologii (Uniwersytet Gdański). Jego cel to kardiochirurgia. Pracuje jako farmaceuta, był koordynatorem badań klinicznych w LabCorp i medical writerem w Centrum Wsparcia Badań Klinicznych GUMed. Tworzy też własne aplikacje dla medycyny.',
+    a: 'Student V roku kierunku lekarskiego na Gdańskim Uniwersytecie Medycznym, magister farmacji (GUMed) i magister biologii (Uniwersytet Gdański). Jego cel to kardiochirurgia dziecięca. Pracuje jako farmaceuta, był koordynatorem badań klinicznych w LabCorp i medical writerem w Centrum Wsparcia Badań Klinicznych GUMed. Tworzy też własne aplikacje dla medycyny.',
   },
   {
     q: 'Czego szukam i co mogę wnieść do zespołu?',
-    a: 'Szukam zespołu klinicznego, najchętniej z kardiochirurgii, w którym mogę się uczyć i pracować. Wnoszę doświadczenie z oddziału kardiochirurgii dziecięcej, dokumentację badań klinicznych (protokoły, streszczenia, materiały dla komisji bioetycznych), medical writing oraz narzędzia cyfrowe, które zdejmują z zespołu ręczną pracę.',
+    a: 'Szukam zespołu klinicznego, najchętniej z kardiochirurgii dziecięcej, w którym mogę się uczyć i pracować. Wnoszę doświadczenie z oddziału kardiochirurgii dziecięcej, dokumentację badań klinicznych (protokoły, streszczenia, materiały dla komisji bioetycznych), medical writing oraz narzędzia cyfrowe, które zdejmują z zespołu ręczną pracę.',
   },
   {
     q: 'Jakie mam doświadczenie w badaniach klinicznych?',
