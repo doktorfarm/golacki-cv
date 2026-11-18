@@ -143,7 +143,7 @@ export const education = [
 ]
 
 export const skills = [
-  { title: 'Badania kliniczne', items: ['ICH-GCP E6 (R2)', 'TMF, CTMS', 'Koordynacja badań', 'Dokumentacja dla komisji bioetycznych'] },
+  { title: 'Badania kliniczne', items: ['ICH-GCP E6 (R2) i (R3)', 'TMF, CTMS', 'Koordynacja badań', 'Dokumentacja dla komisji bioetycznych'] },
   { title: 'Medycyna i farmacja', items: ['Farmakoterapia i doradztwo', 'Lek recepturowy', 'Szczepienia (kurs kwalifikacyjny)', 'Dobra Praktyka Dystrybucyjna'] },
   { title: 'Nauka i laboratorium', items: ['Medical writing', 'Real-time PCR', 'Testy MIC / MBC / MBEC', 'Synteza peptydów'] },
   { title: 'Zarządzanie', items: ['Budżety i cele sprzedażowe', 'Relacje z klientami', 'Mentoring zespołów', 'MS Project, Visio, Excel'] },
@@ -180,9 +180,11 @@ export const publications = [
 // Wystąpienia (z CV)
 export const talks = [
   { year: '2026', title: 'Prezentacja przypadku klinicznego', venue: 'Kardioneptunalia, Jastarnia' },
+  { year: '2026', title: 'Wystąpienie', venue: 'Gdańskie Spotkania Kardiochirurgiczne, Gdańsk' },
 ]
 
 export const certificates = [
+  { year: '—', name: 'ICH E6 (R3) Good Clinical Practice' },
   { year: '2025', name: 'ICH E6 (R2) Good Clinical Practice' },
   { year: '2025', name: 'Kurs kwalifikacyjny do szczepień' },
   { year: '2021', name: 'Clinical Trials Assistant' },
@@ -200,7 +202,7 @@ export const faq = [
   },
   {
     q: 'Jakie mam doświadczenie w badaniach klinicznych?',
-    a: 'W LabCorp (Covance) współprowadziłem 3 badania kliniczne z onkologii i pulmonologii jako Project Coordinator. Mam certyfikat ICH E6 (R2) GCP, pracuję z systemami TMF i CTMS, a jako medical writer przygotowywałem dokumentację badań w GUMed.',
+    a: 'W LabCorp (Covance) współprowadziłem 3 badania kliniczne z onkologii i pulmonologii jako Project Coordinator. Mam certyfikaty ICH E6 (R2) i (R3) GCP, pracuję z systemami TMF i CTMS, a jako medical writer przygotowywałem dokumentację badań w GUMed.',
   },
   {
     q: 'Czym jest GenCode?',
