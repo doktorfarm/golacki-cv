@@ -1,6 +1,6 @@
 import { useCallback, useRef } from 'react'
 import { useScrollProgress } from '../hooks/useScrollProgress'
-import { about, certificates, education, experience, hero, person, publications, skills } from '../data'
+import { about, certificates, education, experience, hero, person, publications, skills, talks } from '../data'
 import { ArrowUpRight, Reveal, Roll } from './motion'
 import Orbits from './Orbits'
 import SectionHead from './SectionHead'
@@ -39,7 +39,7 @@ function Timeline({ items }) {
   )
 }
 
-// The PDF holds a phone number and private e-mail; review copies are built without it (VITE_SHOW_CV=false)
+// The CV PDF is offered for download; set VITE_SHOW_CV=false to hide the button in a build
 const SHOW_CV = import.meta.env.VITE_SHOW_CV !== 'false'
 
 export default function About() {
@@ -112,7 +112,7 @@ export default function About() {
               ))}
             </div>
 
-            <BlockTitle title="Publikacje i certyfikaty" note={`${publications.length} + ${certificates.length}`} />
+            <BlockTitle title="Publikacje, wystąpienia i certyfikaty" note={`${publications.length} + ${talks.length} + ${certificates.length}`} />
             <ul className="m-0 list-none p-0">
               {publications.map((p) => (
                 <li key={p.title} className="grid items-baseline gap-1 border-b border-line py-[18px] md:grid-cols-[120px_minmax(0,1fr)] md:gap-5">
@@ -125,6 +125,16 @@ export default function About() {
                     )}
                     <span className="mt-1 block text-[15px] text-muted">{p.venue}</span>
                   </span>
+                </li>
+              ))}
+              {talks.map((t) => (
+                <li key={t.title} className="grid items-baseline gap-1 border-b border-line py-[18px] md:grid-cols-[120px_minmax(0,1fr)_auto] md:gap-5">
+                  <span className="mono">{t.year}</span>
+                  <span className="text-[16px] leading-snug">
+                    {t.title}
+                    <span className="mt-1 block text-[15px] text-muted">{t.venue}</span>
+                  </span>
+                  <span className="mono">Wystąpienie</span>
                 </li>
               ))}
               {certificates.map((c) => (

@@ -26,7 +26,7 @@ export const hero = {
   lead: 'Studiuję medycynę, żeby zostać kardiochirurgiem. Pierwsze doświadczenie zebrałem na oddziale kardiochirurgii dziecięcej. Równolegle buduję aplikacje dla lekarzy, badaczy i studentów.',
   // Krótkie fakty pod nagłówkiem
   facts: [
-    ['IV rok', 'kierunku lekarskiego, GUMed'],
+    ['V rok', 'kierunku lekarskiego, GUMed'],
     ['2 × mgr', 'farmacja i biologia'],
     ['3 badania', 'kliniczne w LabCorp: onkologia, pulmonologia'],
     ['3 publikacje', 'naukowe, m.in. Pharmaceutics i Molecules'],
@@ -126,7 +126,7 @@ export const projects = [
 ]
 
 export const about = {
-  text: 'Jestem studentem IV roku medycyny oraz magistrem farmacji i biologii. Przede wszystkim chcę zostać kardiochirurgiem. Pracowałem przy łóżku pacjenta na kardiochirurgii dziecięcej, w CRO, jako medical writer i w aptece. Dlatego wiem, jak wygląda problem z każdej strony, zanim zacznę budować rozwiązanie.',
+  text: 'Jestem studentem V roku medycyny oraz magistrem farmacji i biologii. Przede wszystkim chcę zostać kardiochirurgiem. Pracowałem przy łóżku pacjenta na kardiochirurgii dziecięcej, w CRO, jako medical writer i w aptece. Dlatego wiem, jak wygląda problem z każdej strony, zanim zacznę budować rozwiązanie.',
 }
 
 // `to: null` = „dziś”
@@ -141,7 +141,7 @@ export const experience = [
 ]
 
 export const education = [
-  { from: '2022', to: null, role: 'Kierunek lekarski', org: 'Gdański Uniwersytet Medyczny', tag: 'IV rok' },
+  { from: '2022', to: null, role: 'Kierunek lekarski', org: 'Gdański Uniwersytet Medyczny', tag: 'V rok' },
   { from: '2015', to: '2021', role: 'Farmacja, magister', org: 'Gdański Uniwersytet Medyczny', tag: 'mgr farm.' },
   { from: '2011', to: '2016', role: 'Biologia, magister', org: 'Uniwersytet Gdański', tag: 'mgr' },
 ]
@@ -181,6 +181,11 @@ export const publications = [
   },
 ]
 
+// Wystąpienia (z CV)
+export const talks = [
+  { year: '2026', title: 'Prezentacja przypadku klinicznego', venue: 'Kardioneptunalia, Jastarnia' },
+]
+
 export const certificates = [
   { year: '2025', name: 'ICH E6 (R2) Good Clinical Practice' },
   { year: '2025', name: 'Kurs kwalifikacyjny do szczepień' },
@@ -191,7 +196,7 @@ export const certificates = [
 export const faq = [
   {
     q: 'Kim jest Krzysztof Gołacki?',
-    a: 'Student IV roku kierunku lekarskiego na Gdańskim Uniwersytecie Medycznym, magister farmacji (GUMed) i magister biologii (Uniwersytet Gdański). Jego cel to kardiochirurgia. Pracuje jako farmaceuta, był koordynatorem badań klinicznych w LabCorp i medical writerem w Centrum Wsparcia Badań Klinicznych GUMed. Tworzy też własne aplikacje dla medycyny.',
+    a: 'Student V roku kierunku lekarskiego na Gdańskim Uniwersytecie Medycznym, magister farmacji (GUMed) i magister biologii (Uniwersytet Gdański). Jego cel to kardiochirurgia. Pracuje jako farmaceuta, był koordynatorem badań klinicznych w LabCorp i medical writerem w Centrum Wsparcia Badań Klinicznych GUMed. Tworzy też własne aplikacje dla medycyny.',
   },
   {
     q: 'Czego szukam i co mogę wnieść do zespołu?',
@@ -215,6 +220,6 @@ export const faq = [
 export const seo = {
   title: 'Krzysztof Gołacki | Student medycyny, przyszły kardiochirurg',
   description:
-    'Student IV roku medycyny z Gdańska, przyszły kardiochirurg, magister farmacji i biologii. Szukam opiekuna naukowego i zespołu klinicznego. Piszę dokumentację badań (GCP) i buduję narzędzia dla lekarzy.',
+    'Student V roku medycyny z Gdańska, przyszły kardiochirurg, magister farmacji i biologii. Szukam opiekuna naukowego i zespołu klinicznego. Piszę dokumentację badań (GCP) i buduję narzędzia dla lekarzy.',
   sameAs: [], // np. LinkedIn, ORCID, GitHub — pełne adresy URL
 }

@@ -5,10 +5,9 @@ dist
 .DS_Store
 # podglądy robocze
 podglad-*.png
-# prywatne: zdjęcia źródłowe i CV (zawiera telefon i prywatny e-mail)
+# prywatne: zdjęcia źródłowe
 media/portrait*
 media/boardwalk.jpg
 media/camera.jpg
 media/mountains.jpg
 media/walk-bw.jpg
-public/assets/Krzysztof-Golacki-CV.pdf

@@ -27,11 +27,11 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          # review copy: served from /<repo>/, hidden from search engines, without the CV PDF
+          # review copy: served from /<repo>/, hidden from search engines
           VITE_BASE: /${{ github.event.repository.name }}/
           VITE_SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
           VITE_ROBOTS: noindex, nofollow
-          VITE_SHOW_CV: 'false'
+          VITE_SHOW_CV: 'true'
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
