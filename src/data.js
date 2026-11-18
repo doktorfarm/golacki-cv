@@ -184,7 +184,7 @@ export const talks = [
 ]
 
 export const certificates = [
-  { year: '—', name: 'ICH E6 (R3) Good Clinical Practice' },
+  { year: '2026', name: 'ICH E6 (R3) Good Clinical Practice' },
   { year: '2025', name: 'ICH E6 (R2) Good Clinical Practice' },
   { year: '2025', name: 'Kurs kwalifikacyjny do szczepień' },
   { year: '2021', name: 'Clinical Trials Assistant' },
