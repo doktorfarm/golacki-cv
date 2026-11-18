@@ -32,8 +32,8 @@ export const hero = {
     ['4 publikacje', 'naukowe, m.in. Pharmaceutics i Molecules'],
   ],
   seeking: {
-    label: 'Dokąd zmierzam i co wnoszę',
-    text: 'Przede wszystkim chcę zostać kardiochirurgiem dziecięcym i szukam zespołu klinicznego, w którym mogę się tego uczyć: na oddziale, przy stole operacyjnym i w badaniach. Znam pacjenta z oddziału, lek z apteki i dane z badań. Dokładnie dokumentuję, szybko się uczę, a gdy zespół traci czas na ręczną pracę, potrafię zbudować narzędzie, które ją zdejmuje.',
+    label: 'Dokąd zmierzam',
+    text: 'Chcę zostać kardiochirurgiem dziecięcym. Pierwsze doświadczenie zebrałem na oddziale kardiochirurgii dziecięcej i szukam zespołu klinicznego, w którym będę mógł uczyć się dalej: na oddziale, przy stole operacyjnym i w badaniach. Do zespołu wnoszę znajomość pacjenta, leku i danych z badań, dokładną dokumentację oraz narzędzia, które zdejmują z niego ręczną pracę.',
   },
 }
 
