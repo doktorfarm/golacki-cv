@@ -27,8 +27,8 @@
     "fallback": "jpg"
   },
   "infectio-screens": {
-    "width": 1440,
-    "height": 900,
+    "width": 2880,
+    "height": 1800,
     "widths": [
       700,
       1400

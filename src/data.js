@@ -94,19 +94,19 @@ export const projects = [
     key: 'inf',
     name: ['Infect', 'io'],
     meta: ['Dla studentów medycyny', 'Web app, nauka powtórkowa'],
-    url: null, // aplikacja jest za logowaniem (ChatGPT), więc bez linku
+    url: 'https://doktorfarm.github.io/infectio/app/',
     description:
-      'Aplikacja do nauki chorób zakaźnych: fiszki, pytania otwarte i quiz ABCDE na bazie 109 pytań z kluczem i źródłem. Powtórki wracają w ustalonych odstępach, a postęp i trafność quizów liczą się wyłącznie z Twojej nauki.',
-    tags: ['Fiszki', 'Quiz ABCDE', 'Powtórki', 'Choroby zakaźne'],
+      'Aplikacja do nauki chorób zakaźnych w quizach A–E na bazie 406 pytań z oznaczonym źródłem. Wynik widać od razu, błędne pytania wracają po 10 minutach, a dobre po 3 dniach. Pytania i odpowiedzi są tasowane, a postęp zostaje w przeglądarce albo przenosi się kodem QR na drugie urządzenie.',
+    tags: ['Quiz ABCDE', 'Powtórki', 'Mieszanie pytań', 'Choroby zakaźne'],
     tech: [],
     points: [
-      'Biblioteka z filtrami po temacie, typie pytania, statusie weryfikacji i pochodzeniu',
-      'Każde pytanie pokazuje, czy klucz sprawdzono i według jakiego źródła (np. CDC)',
-      'Kalendarz powtórek: „Jeszcze powtórzę” wraca po 10 minutach, „Pamiętam” po 3 dniach',
-      'Dane zostają w przeglądarce, z kopią postępu do pobrania',
+      'Pięć odpowiedzi A–E, losowa kolejność pytań i odpowiedzi oraz tryb „Mieszany zestaw”',
+      'Kalendarz powtórek: dobra odpowiedź wraca po 3 dniach, błędna po 10 minutach',
+      'Synchronizacja kodem lub QR, bez konta i bez adresu e-mail',
+      'Klucze odpowiedzi przejrzał asystent AI. To materiał edukacyjny, nie recenzja kliniczna',
     ],
     shots: {
-      desktop: [['infectio-screens', 'Infectio na telefonie: pulpit z fiszkami do nauki, pytanie quizu ABCDE o profil serologiczny HBV i biblioteka pytań']],
+      desktop: [['infectio-screens', 'Infectio na telefonie: pulpit z kafelkami quizu i mieszanego zestawu, pytanie quizowe z zaznaczoną odpowiedzią oraz karta synchronizacji z kodem QR']],
     },
   },
   {
